@@ -1,7 +1,7 @@
 window.onload = function () {
     var xhr = new XMLHttpRequest(),
         method = "GET",
-        url = "/include/header.html";//読み込まれるHTMLを指定
+        url = "./include/header.html";//読み込まれるHTMLを指定
     var layout_area = document.getElementById("layout_area");//読み込みたい位置を指定
 
     xhr.responseType = "document";//XMLとして扱いたいので一応記述
